@@ -1,4 +1,6 @@
 # 📝 To-Do List App
+<img width="1436" alt="Снимок экрана 2025-06-13 в 10 27 00" src="https://github.com/user-attachments/assets/c69286f7-9c2b-4207-a611-cef7a97270ad" />
+<img width="1438" alt="Снимок экрана 2025-06-13 в 10 27 15" src="https://github.com/user-attachments/assets/42f82a37-3b5e-4387-bfd5-5f4a01836872" />
 
 A modern full-stack To-Do List application built with:
 
