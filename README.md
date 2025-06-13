@@ -8,18 +8,6 @@ A modern full-stack To-Do List application built with:
 
 ---
 
-## 📁 Project Structure
-
-todo-list-fastapi-react/
-├── backend/ # FastAPI backend
-└── frontend/ # Next.js frontend
-
-yaml
-Копировать
-Редактировать
-
----
-
 ## 🚀 Getting Started
 
 ### 🔧 Prerequisites
@@ -42,6 +30,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 pip install -r requirements.txt
 uvicorn main:app --reload
+
 🔌 API Endpoints (Example)
 GET /tasks - Get all tasks
 
@@ -58,22 +47,19 @@ Redoc: http://localhost:8000/redoc
 
 💻 Frontend (Next.js + Mantine)
 🧰 Setup & Run
-bash
-Копировать
-Редактировать
+
 cd frontend
 npm install         # or yarn install
 npm run dev         # or yarn dev
+
 📍 Dev Server
 App runs at: http://localhost:3000
 
 🔗 Connect to Backend
 If needed, create .env.local file in /frontend:
 
-env
-Копировать
-Редактировать
 NEXT_PUBLIC_API_URL=http://localhost:8000
+
 ✅ Features
 Create, update, and delete tasks
 
